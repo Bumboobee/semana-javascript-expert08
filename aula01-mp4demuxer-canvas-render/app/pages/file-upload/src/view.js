@@ -6,9 +6,16 @@ export default class View {
   #txtfileName = document.getElementById("fileName");
   #fileUploadWrapper = document.getElementById("fileUploadWrapper");
   #elapsed = document.getElementById("elapsed");
+  
+  /** @type {HTMLCanvasElement} */
   #canvas = document.getElementById("preview-144p");
+  
   constructor() {
     this.configureBtnClick();
+  }
+
+  getCanvas() {
+    return this.#canvas.transferControlToOffscreen();
   }
 
   parseBytesIntoMBAndGB(bytes) {
