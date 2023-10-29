@@ -240,8 +240,8 @@ export default class VideoProcessor {
         //     }
         // }))
         .pipeTo(this.upload(fileName, '144p', 'webm'))
-        // sendMessage({
-        //     status: 'done',
-        // })
+        sendMessage({
+            status: 'done',
+        })
     }
 }

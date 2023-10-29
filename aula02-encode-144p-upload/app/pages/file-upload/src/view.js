@@ -15,6 +15,8 @@ export default class View {
   }
 
   getCanvas() {
+    this.#canvas.width = 160;
+    this.#canvas.height = 120;
     return this.#canvas.transferControlToOffscreen();
   }
 
