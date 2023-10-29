@@ -1,10 +1,11 @@
-# JSExpertHub Pre-processing videos on browsers - Semana JS Expert 8.0
+# JSExpertHub Reimaging Video Upload - Semana JS Expert 8.0
 
 Seja bem vindo(a) à oitava Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.
 
-Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no WhatsApp](https://l.erickwendel.com.br/jse8-grupo)
+Marque esse projeto com uma estrela 🌟
+
 ## Preview
-<img width=100% src="./initial-template/demo.gif">
+<img width=100% src="./demo.gif">
 
 ## Pre-reqs
 - Este projeto foi criado usando Node.js v18.17.0
@@ -20,23 +21,14 @@ Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no What
 ## Checklist Features
 
 - Video Uploader
-  - [X] - Deve entender videos em formato MP4 mesmo se não estiverem fragmentados
-  - [X] - Deve processar itens em threads isoladas com Web Workers
-  - [X] - Deve converter fragmentos de videos em formato `144p`
-  - [X] - Deve renderizar frames em tempo real em elemento canvas
-  - [X] - Deve gerar arquivos WebM a partir de fragmentos
+  - [] - Deve entender videos em formato MP4 mesmo se não estiverem fragmentados
+  - [] - Deve processar itens em threads isoladas com Web Workers
+  - [] - Deve converter fragmentos de videos em formato `144p`
+  - [] - Deve renderizar frames em tempo real em elemento canvas
+  - [] - Deve gerar arquivos WebM a partir de fragmentos
 
 ### Desafios
-- [] - Encodar em 360p e 720p
-- [] - Fazer encoding/decoding track de áudio
-- [] - Fazer também upload de track de áudio
-- [] - Concatenar o arquivo final no servidor em um arquivo só
-- [] - Corrigir problema do Webm de não mostrar a duração do video
-- [] - Corrigir a responsividade do site
-- [] - Tentar usar outros muxers
-  - https://github.com/Vanilagy/webm-muxer
-  - https://github.com/Vanilagy/mp4-muxer
-
+- [] - TBD
 
 
 ### Links mostrados nos aulas:
@@ -53,18 +45,3 @@ Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no What
     3. agora o projeto vai estar executando na :8080 então vá no navegador e tente acessar o http://localhost:8080/
   A unica coisa, é que o projeto não vai reiniciar quando voce alterar algum código, vai precisar dar um F5 na página toda vez que alterar algo
 
-## SOBRE 
-[1°] Identificar o video que possui tamanho grande
-[2°] Encode - transformar em uma resolução menor
-[3°] Voltar par a resolução menor "descomprimida" para imprimir na tela 
-[3°] Transformar o video em webM
-[4°] Fazer download do video
-
-
-## CONCEITOS
-Demuxer 
-Muxer 
-Encoder
-Decoder 
-
-**VEJA A PAGINA DE REFERENCIAS!!!!**
