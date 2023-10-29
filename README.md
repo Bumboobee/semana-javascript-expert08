@@ -6,6 +6,8 @@ Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no What
 ## Preview
 <img width=100% src="./demo.gif">
 
+🔥🔥🔥🔥🔥🔥🔥 **[Clique aqui para conferir a página final](https://bumboobee.github.io/semana-javascript-expert08/aula02-encode-144p-upload/app/pages/file-upload/)** 🔥🔥🔥🔥🔥🔥🔥
+
 ## Pre-reqs
 - Este projeto foi criado usando Node.js v18.17.0
 - O ideal é que você use o projeto em ambiente Unix (Linux). Se você estiver no Windows, é recomendado que use o [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) pois nas aulas são mostrados comandos Linux que possam não existir no Windows.
@@ -55,9 +57,13 @@ Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no What
 
 ## SOBRE 
 [1°] Identificar o video que possui tamanho grande
+
 [2°] Encode - transformar em uma resolução menor
+
 [3°] Voltar par a resolução menor "descomprimida" para imprimir na tela 
+
 [3°] Transformar o video em webM
+
 [4°] Fazer download do video
 
 
@@ -68,3 +74,5 @@ Encoder
 Decoder 
 
 **VEJA A PAGINA DE REFERENCIAS!!!!**
+
+
